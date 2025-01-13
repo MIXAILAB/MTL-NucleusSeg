@@ -39,9 +39,11 @@ The proposed framework achieves state-of-the-art performance on several multi-or
 
 **preprocessing/:** Code for reference selection, style transfer, and data augmentation.
 
-**model/:** Implementation of the Multi-Dilated Residual U-Net with Bottleneck Transformer.
+**training.ipynb/:** Training scripts for multi-task learning.
 
-**training/:** Training scripts for multi-task learning.
+**test.ipynb/:** Test scripts for multi-task learning.
+
+**Saved_model/:** Pre trained model for both NuInsSeg and MonuSeg dataset
 
 **evaluation/:** Metrics for assessing segmentation performance (Dice, IoU, AJI, PQ).
 

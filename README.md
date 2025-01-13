@@ -72,23 +72,20 @@ Clone the repository:
 ```bash
 git clone https://github.com/eyob12/MTL-NucleusSeg.git  
 cd MTL-NucleusSeg
-Install dependencies:
 
-bash
+## Install dependencies:
 pip install -r requirements.txt
-Usage
-Data Preprocessing
+
+# Usage
+## Data Preprocessing
 Use the provided script to apply style transfer and augmentations:
-
-bash
 python preprocess.py --input_dir <path-to-dataset> --output_dir <path-to-output>
-Train the Model
+## Train the Model
 Start training with:
-
-bash
 python train.py --config config.yaml
-Evaluate the Model
+
+## Evaluate the Model
 Evaluate on test datasets with:
 
-bash
+
 python evaluate.py --weights <path-to-weights>

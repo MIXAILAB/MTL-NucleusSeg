@@ -35,19 +35,33 @@ The proposed framework achieves state-of-the-art performance on several multi-or
 
 **Average Jaccard Index (AJI): 0.77**
 
+
+
 ## Repository Structure
 
-**preprocessing/:** Code for reference selection, style transfer, and data augmentation.
+- **preprocessing/**  
+  Contains scripts for reference selection, style transfer, and data augmentation.
 
-**training.ipynb/:** Training scripts for multi-task learning.
+- **training.ipynb**  
+  Jupyter Notebook for training the multi-task learning model.
 
-**test.ipynb/:** Test scripts for multi-task learning.
+- **test.ipynb**  
+  Jupyter Notebook for testing the multi-task learning model.
 
-**Saved_model/:** Pre trained model for both NuInsSeg and MonuSeg dataset
+- **Saved_model/**  
+  Pretrained models for both the NuInsSeg and MoNuSeg datasets.
 
-**evaluation/:** Metrics for assessing segmentation performance (Dice, IoU, AJI, PQ).
+- **evaluation/**  
+  Scripts for calculating evaluation metrics such as Dice, IoU, AJI, and PQ.
 
-**datasets/:** Scripts for dataset preparation and 5-fold cross-validation.
+- **datasets/**  
+  Scripts for dataset preparation and implementing 5-fold cross-validation.
 
+---
 
+## Installation
 
+Clone the repository:  
+```bash
+git clone https://github.com/yourusername/MultiTask-Nucleus-Segmentation.git  
+cd MultiTask-Nucleus-Segmentation

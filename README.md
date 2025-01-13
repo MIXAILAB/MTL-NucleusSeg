@@ -4,16 +4,16 @@ Revolutionizing multi-organ nucleus segmentation in histopathological images wit
 This repository contains the implementation of a novel multi-organ nucleus segmentation framework
 
 ## Key Features
-###1. Pre-Processing for Standardization and Variability Reduction
+##1. Pre-Processing for Standardization and Variability Reduction
 
 This stage ensures consistent quality across histopathological datasets by addressing staining intensity variations and preparing reliable training data.
 
-####Reference Selection: Criteria to identify representative reference images for style transfer.
-Style Transfer: Harmonization of visual characteristics across datasets.
+%####Reference Selection: Criteria to identify representative reference images for style transfer.
+%Style Transfer: Harmonization of visual characteristics across datasets.
 
-####Label Crafting: Preparation of high-quality training data to enhance model reliability.
+%####Label Crafting: Preparation of high-quality training data to enhance model reliability.
 
-###2. Proposed Model Architecture
+##2. Proposed Model Architecture
 The framework employs a multi-task learning model with an encoder-decoder structure, integrating advanced techniques for effective segmentation:
 
 Multi-Dilated Residual U-Net with Bottleneck Transformer:
@@ -23,7 +23,8 @@ Attention Gate Mechanisms: Focuses on relevant regions of interest, enhancing se
 Dual Output Heads:
 Distance Map (D ∈ RH×W): Encodes spatial relationships to separate densely packed nuclei.
 Semantic Segmentation Map (S ∈ RH×W): Classifies pixels as nucleus or background.
-3. Augmentation for Generalization
+
+##3. Augmentation for Generalization
 To improve robustness and mitigate domain shifts:
 
 Reference-based style transfer standardizes staining.

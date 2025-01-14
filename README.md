@@ -43,7 +43,7 @@ Our proposed model was trained and evaluated on two multi-organ segmentation ben
 
 ## Comparation
 
-- [x] ##### Model Performance on NuInsSeg dataset
+- [x] **Model Performance on NuInsSeg dataset**
 
 | Model                        | Avg. Dice | Avg. AJI (%) | Avg. PQ (%) |
 |------------------------------|-----------|--------------|-------------|
@@ -55,8 +55,23 @@ Our proposed model was trained and evaluated on two multi-organ segmentation ben
 | Dual decoder U-Net            | 79.4      | 55.9         | 51.3        |
 | **Our Method**                | **85.1**  | **87.7**     | **78.3**    |
 
-- [x] ##### Model Performance on Monuseg dataset
+- [x] **Model Performance on MoNuSeg dataset**
 
+- Team Performance Ranking
+
+| Team                   | AJI     | Country | Rank |
+|------------------------|---------|---------|------|
+| CUHK&IMSIGHT           | 0.6907  | China   | 1    |
+| BUPT.J.LI              | 0.6868  | China   | 2    |
+| Pku.hzq                | 0.6852  | China   | 3    |
+| Yunzhi                 | 0.6788  | USA     | 4    |
+| Navid Alemi            | 0.6779  | UK      | 5    |
+| Xuhuaren               | 0.6642  | China   | 6    |
+| AetherAI               | 0.6632  | Taiwan  | 7    |
+| Shuang Yang            | 0.6624  | China   | 8    |
+| Bio-totem&SYSUCC       | 0.6619  | China   | 9    |
+| Amirreza Mahbod        | 0.6574  | Austria | 10   |
+| **Our Team**           | **0.67088** |  -       |   -   |
 
 
 

@@ -18,7 +18,7 @@ This stage ensures consistent quality across histopathological datasets by addre
 The framework employs a multi-task learning model with an encoder-decoder structure, integrating advanced techniques for effective segmentation Multi-Dilated Residual Block with Bottleneck Transformer:
 Multi-dilated convolutions capture features at varying scales, improving segmentation in dense and overlapping regions. Bottleneck Transformer ensures long-range dependency modeling. Attention Gate Mechanisms: Focuses on relevant regions of interest, enhancing segmentation accuracy.
 
-### Dual Output Heads:
+#### Dual Output Heads:
 **Distance Map $\( D \in \mathbb{R}^{H \times W} \)$:** Encodes spatial relationships to separate densely packed nuclei.
 
 **Semantic Segmentation Map $\( S \in \mathbb{R}^{H \times W} \)$:** Classifies pixels as nucleus or background.

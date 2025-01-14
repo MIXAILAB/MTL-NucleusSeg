@@ -19,9 +19,9 @@ The framework employs a multi-task learning model with an encoder-decoder struct
 Multi-dilated convolutions capture features at varying scales, improving segmentation in dense and overlapping regions. Bottleneck Transformer ensures long-range dependency modeling. Attention Gate Mechanisms: Focuses on relevant regions of interest, enhancing segmentation accuracy.
 
 ### Dual Output Heads:
-**Distance Map \( D \in \mathbb{R}^{H \times W} \):** Encodes spatial relationships to separate densely packed nuclei.
+**Distance Map $\( D \in \mathbb{R}^{H \times W} \)$:** Encodes spatial relationships to separate densely packed nuclei.
 
-**Semantic Segmentation Map \( S \in \mathbb{R}^{H \times W} \):** Classifies pixels as nucleus or background.
+**Semantic Segmentation Map $\( S \in \mathbb{R}^{H \times W} \)$:** Classifies pixels as nucleus or background.
 
 ### 3. Augmentation for Generalization
 To improve robustness and mitigate domain shifts:

@@ -3,6 +3,8 @@ Revolutionizing multi-organ nucleus segmentation in histopathological images wit
 
 This repository contains the implementation of a novel multi-organ nucleus segmentation framework
 
+## Overview of Methodology
+
 ## Key Features
 ### 1. Pre-Processing and  Style Transformation to Standardize Variability 
 
@@ -23,6 +25,8 @@ Multi-dilated convolutions capture features at varying scales, improving segment
 - [x] **Distance Map $\( D \in \mathbb{R}^{H \times W} \)$:** Encodes spatial relationships to separate densely packed nuclei.
 
 - [x] **Semantic Segmentation Map $\( S \in \mathbb{R}^{H \times W} \)$:** Classifies pixels as nucleus or background.
+      
+![model](https://github.com/user-attachments/assets/e60b3cbe-ba47-49fa-87b0-3a89c18b7fc2)
 
 #### Post-processing
 To achieve instance segmentation using the outputs from our proposed multi-task model.

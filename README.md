@@ -4,7 +4,7 @@ Revolutionizing multi-organ nucleus segmentation in histopathological images wit
 This repository contains the implementation of a novel multi-organ nucleus segmentation framework
 
 ## Key Features
-### 1. Pre-Processing for Standardization and Variability Reduction
+### 1. Pre-Processing and  Style Transformation to Standardize Variability 
 
 This stage ensures consistent quality across histopathological datasets by addressing staining intensity variations and preparing reliable training data.
 
@@ -13,6 +13,7 @@ This stage ensures consistent quality across histopathological datasets by addre
 - [x] **Style Transfer:** Harmonization of visual characteristics across datasets.
 
 - [x] **Label Crafting:** Preparation of high-quality training data to enhance model reliability.
+![pre_processing](https://github.com/user-attachments/assets/c2dcd897-0423-4651-ab4a-2aae850b66a7)
 
 ### 2. Proposed Model Architecture
 The framework employs a multi-task learning model with an encoder-decoder structure, integrating advanced techniques for effective segmentation Multi-Dilated Residual Block with Bottleneck Transformer:
@@ -23,11 +24,11 @@ Multi-dilated convolutions capture features at varying scales, improving segment
 
 - [x] **Semantic Segmentation Map $\( S \in \mathbb{R}^{H \times W} \)$:** Classifies pixels as nucleus or background.
 
-### 3. Augmentation for Generalization
-To improve robustness and mitigate domain shifts:
+#### Post-processing
+To achieve instance segmentation using the outputs from our proposed multi-task model.
 
-### Reference-based style transfer standardizes staining.
-Augmentation techniques like rotation and flipping increase dataset variability and diversity.
+![post_processing](https://github.com/user-attachments/assets/c4733192-3ca6-47e4-ac77-75c7739240c3)
+
 
 ## Results
 

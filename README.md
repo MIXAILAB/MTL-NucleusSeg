@@ -71,9 +71,13 @@ Our proposed model was trained and evaluated on two multi-organ segmentation ben
 | Shuang Yang            | 0.6624  | China   | 8    |
 | Bio-totem&SYSUCC       | 0.6619  | China   | 9    |
 | Amirreza Mahbod        | 0.6574  | Austria | 10   |
-| **Our Team**           | **0.67088** |  -       |   -   |
+| **Our Team**           | **0.67089** |  -       |   -   |
 
+- Comparative results top five methods from the MoNuSeg challenge
+ Below figure illustrates the segmentation results across seven organs such
+as kidney, lung, colon, breast, bladder, prostate, and brain againes top five methods from the MoNuSeg challenge. 
 
+![2COMPARATION RESULT_MONUSEG](https://github.com/user-attachments/assets/37ffbebc-5ded-4aa9-8320-25b17863906b)
 
 ## Repository Structure
 

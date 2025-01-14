@@ -57,7 +57,7 @@ Our proposed model was trained and evaluated on two multi-organ segmentation ben
 
 - [x] **Model Performance on MoNuSeg dataset**
 
-- Team Performance Ranking
+- [x] Team Performance Ranking
 
 | Team                   | AJI     | Country | Rank |
 |------------------------|---------|---------|------|
@@ -133,3 +133,6 @@ python train.py --config config.yaml
 Evaluate on test datasets with:
 ```bash
 python evaluate.py --weights <path-to-weights>
+```
+# citation 
+```bash

@@ -43,6 +43,20 @@ Our proposed model was trained and evaluated on two multi-organ segmentation ben
 
 ## Comparation
 
+- [x] ##### Model Performance on NuInsSeg dataset
+
+| Model                        | Avg. Dice | Avg. AJI (%) | Avg. PQ (%) |
+|------------------------------|-----------|--------------|-------------|
+| Shallow U-Net                 | 78.8      | 50.5         | 42.7        |
+| Deep U-Net                    | 79.7      | 49.4         | 40.4        |
+| Attention U-Net               | 80.5      | 45.7         | 36.4        |
+| Residual attention U-Net      | 81.4      | 46.2         | 36.9        |
+| Two-stage U-Net               | 76.6      | 52.8         | 47.2        |
+| Dual decoder U-Net            | 79.4      | 55.9         | 51.3        |
+| **Our Method**                | **85.1**  | **87.7**     | **78.3**    |
+
+- [x] ##### Model Performance on Monuseg dataset
+
 
 
 

@@ -66,8 +66,9 @@ Clone the repository:
 git clone https://github.com/eyob12/MTL-NucleusSeg.git  
 cd MTL-NucleusSeg
 
+---
 
-### Install Dependencies  
+## Install Dependencies  
 Install the required Python dependencies:  
 ```bash
 pip install -r requirements.txt

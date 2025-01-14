@@ -4,6 +4,7 @@ Revolutionizing multi-organ nucleus segmentation in histopathological images wit
 This repository contains the implementation of a novel multi-organ nucleus segmentation framework
 
 ## Overview of Methodology
+![compressed_3model_arch](https://github.com/user-attachments/assets/c6fd2779-ec4f-4d01-ac09-10972ff0bc24)
 
 ## Key Features
 ### 1. Pre-Processing and  Style Transformation to Standardize Variability 
@@ -35,10 +36,13 @@ To achieve instance segmentation using the outputs from our proposed multi-task 
 
 
 ## Results
+Our proposed model was trained and evaluated on two multi-organ segmentation benchmark datasets: NuInsSeg and MoNuSeg. Below figure present representative segmentation results from the NuInsSeg and MoNuSeg datasets. The proposed framework achieves state-of-the-art performance on   NuInsSeg dataset, and comparative result on the MoNuSeg dataset:
 
-The proposed framework achieves state-of-the-art performance on several multi-organ segmentation benchmarks, including the MoNuSeg dataset, with:
+![compressed NuInsSEG and MonuSeg result](https://github.com/user-attachments/assets/efe684be-948c-4133-b62c-8d36d5227089)
 
-**Average Jaccard Index (AJI): 0.77**
+
+## Comparation
+
 
 
 

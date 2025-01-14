@@ -73,8 +73,8 @@ Our proposed model was trained and evaluated on two multi-organ segmentation ben
 | Amirreza Mahbod        | 0.6574  | Austria | 10   |
 | **Our Team**           | **0.67089** |  -       |   -   |
 
-- Comparative results top five methods from the MoNuSeg challenge
-'''  
+- [x] Comparative results top five methods from the MoNuSeg challenge
+      
 Below figure illustrates the segmentation results across seven organs such
 as kidney, lung, colon, breast, bladder, prostate, and brain againes top five methods from the MoNuSeg challenge. 
 

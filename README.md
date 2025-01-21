@@ -7,7 +7,8 @@ This repository contains the implementation of a novel multi-organ nucleus segme
 The source code for this repository will be made publicly available upon the acceptance of the associated research paper. Stay tuned for updates!
 
 ## Overview of Methodology
-![compressed_3model_arch](https://github.com/user-attachments/assets/c6fd2779-ec4f-4d01-ac09-10972ff0bc24)
+![5model_arch-min](https://github.com/user-attachments/assets/a4244adf-b6d1-4b19-a012-122fbd3e5182)
+
 
 ## Key Features
 ### 1. Pre-Processing and  Style Transformation to Standardize Variability 
@@ -56,7 +57,7 @@ Our proposed model was trained and evaluated on two multi-organ segmentation ben
 | Residual attention U-Net      | 81.4      | 46.2         | 36.9        |
 | Two-stage U-Net               | 76.6      | 52.8         | 47.2        |
 | Dual decoder U-Net            | 79.4      | 55.9         | 51.3        |
-| **Our Method**                | **85.1**  | **87.7**     | **78.3**    |
+| **Our Method**                | **83.2**  | **72.5**     | **67.5**    |
 
 - [x] **Model Performance on MoNuSeg dataset**
 

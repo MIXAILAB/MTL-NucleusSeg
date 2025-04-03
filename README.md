@@ -7,7 +7,8 @@ This repository contains the implementation of a novel multi-organ nucleus segme
 The source code for this repository will be made publicly available upon the acceptance of the associated research paper. Stay tuned for updates!
 
 ## Overview of Methodology
-![5model_arch-min](https://github.com/user-attachments/assets/a4244adf-b6d1-4b19-a012-122fbd3e5182)
+
+![3model_arch](https://github.com/user-attachments/assets/16068e91-f462-4fde-a288-02a3c6b32dbd)
 
 
 ## Key Features
@@ -57,7 +58,7 @@ Our proposed model was trained and evaluated on two multi-organ segmentation ben
 | Residual attention U-Net      | 81.4      | 46.2         | 36.9        |
 | Two-stage U-Net               | 76.6      | 52.8         | 47.2        |
 | Dual decoder U-Net            | 79.4      | 55.9         | 51.3        |
-| **Our Method**                | **83.2**  | **72.5**     | **67.5**    |
+| **Our Method**                | **89.8**  | **70.2**     | **68.1**    |
 
 - [x] **Model Performance on MoNuSeg dataset**
 
@@ -75,14 +76,13 @@ Our proposed model was trained and evaluated on two multi-organ segmentation ben
 | Shuang Yang            | 0.6624  | China   | 8    |
 | Bio-totem&SYSUCC       | 0.6619  | China   | 9    |
 | Amirreza Mahbod        | 0.6574  | Austria | 10   |
-| **Our Team**           | **0.67089** |  -       |   -   |
+| **Our Team**           | **0.7410** |  -       |   -   |
 
 - [x] Comparative results of the top five methods from the MoNuSeg challenge
       
 Below figure illustrates the segmentation results across seven organs such
 as kidney, lung, colon, breast, bladder, prostate, and brain againes top five methods from the MoNuSeg challenge. 
 
-![2COMPARATION RESULT_MONUSEG](https://github.com/user-attachments/assets/37ffbebc-5ded-4aa9-8320-25b17863906b)
 
 ## Repository Structure
 

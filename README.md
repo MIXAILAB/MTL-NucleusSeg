@@ -1,5 +1,5 @@
 # MTL-NucleusSeg
-Revolutionizing multi-organ nucleus segmentation in histopathological images with a cutting-edge multi-task learning framework to effectively handle challenges like dense nuclei packing, overlapping structures, and staining variability.
+Revolutionizing multi-organ nucleus segmentation in histopathological images with a cutting-edge multi-task learning framework to effectively address challenges such as dense nuclei packing, overlapping structures, staining variability, and generalization across multi-organ histopathological image.
 
 This repository contains the implementation of a novel multi-organ nucleus segmentation framework.
 

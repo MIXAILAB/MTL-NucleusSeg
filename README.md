@@ -34,11 +34,6 @@ Multi-dilated convolutions capture features at varying scales, improving segment
       
 ![model](https://github.com/user-attachments/assets/e60b3cbe-ba47-49fa-87b0-3a89c18b7fc2)
 
-#### Post-processing
-To achieve instance segmentation using the outputs from our proposed multi-task model.
-
-![post_processing](https://github.com/user-attachments/assets/c4733192-3ca6-47e4-ac77-75c7739240c3)
-
 
 ## Results
 Our proposed model was trained and evaluated on two multi-organ segmentation benchmark datasets: NuInsSeg and MoNuSeg. Below figure present representative segmentation results from the NuInsSeg and MoNuSeg datasets. The proposed framework achieves state-of-the-art performance on   NuInsSeg dataset, and comparative result on the MoNuSeg dataset:
@@ -77,11 +72,6 @@ Our proposed model was trained and evaluated on two multi-organ segmentation ben
 | Bio-totem&SYSUCC       | 0.6619  | China   | 9    |
 | Amirreza Mahbod        | 0.6574  | Austria | 10   |
 | **Our Team**           | **0.7410** |  -       |   -   |
-
-- [x] Comparative results of the top five methods from the MoNuSeg challenge
-      
-Below figure illustrates the segmentation results across seven organs such
-as kidney, lung, colon, breast, bladder, prostate, and brain againes top five methods from the MoNuSeg challenge. 
 
 
 ## Repository Structure
